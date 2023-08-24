@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.bcontainer {
+
+}
+
+.qcontainer {
+    background-color: #e5e7eb;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+}
