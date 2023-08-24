@@ -28,11 +28,26 @@ body {
 }
 
 .header img {
-    max-width: 500px;
+    max-width: 400px;
 }
 
 .container-body {
     padding: 0 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-body-info {
+    display: flex;
+    gap: 48px;
+    align-items: baseline;
+    text-align: center;
+}
+
+.container-body-info img {
+    max-width: 100px;
+    max-height: 100px;
 }
 
 .container-quote {
@@ -45,13 +60,40 @@ body {
 }
 
 .container-bot {
+    display: flex;
     background-color: #3882F6;
-    padding: 0 400px;
+    justify-content: space-between;
+    margin: 50px 600px;
+    padding: 30px 100px;
+    border-radius: 8px;
+    min-width: 428px;
+}
+
+.bot-text {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
+.bot-text-top-line {
+    font-size: 24px;
+    font-weight: 900;
 }
 
 button {
     background-color: #3882F6;
     color: #F9FAF8;
+    padding: 6px 18px;
+    border-radius: 8px;
+}
+
+.header button {
+    border: 0;
+}
+
+.container-bot button {
+   border-color: #F9FAF8;
+   border-width: thin;
 }
 
 .footer {
